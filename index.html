@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#accueil">Accueil</a>
+      <a href="#skills">Skills</a>
+      <a href="#infos">Infos</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+      <button id="darkModeButton">Dark Mode</button>
+    </nav>
+
+    <section id="accueil" class="hero">
+      <div class="hero-text">
+        <h1 id="heroTitle">Alfredo Linguini</h1>
+        <p id="heroDescription">
+Alfredo Linguini-Gusteau, plus connu simplement en tant qu'Alfredo Linguini (ou tout simplement Linguini), est un apprenti cuisinier devenu patron et serveur de restaurant.
+        </p>
+        <button id="profilButton">enlève</button>
+      </div>
+      <div class="hero-image">
+        <img id="heroProfileImage" src="images/raf,360x360,075,t,fafafa_ca443f4786.u1.jpg" alt="Profile image" />
+      </div> 
+    </section>
+    <section id="skills" class="content">
+<h1>Skills</h1>
+
+        <div class="bdg">
+            <span class="badges">Travail d’équipe</span>
+            <span class="badges">Cuisine</span>
+            <span class="badges">Créativité</span>
+            <span class="badges">Gestion du temps</span>
+            <span class="badges">Communication</span>
+            <span class="badges">Leadership</span>
+        </div>
+
+      <p id="selectedSkill"></p>
+        </div>
+    </section>
+        <section id="infos" class="info">
+        <div class="info-box">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Gaming</li>
+                <li>Travel</li>
+                <li>Drinking</li>
+
+            </ul>
+        </div>
+        <div class="info-box">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>French</li>
+                <li>Arabic</li>
+                <li>Spanish</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="projets" class="contact">
+      <h2>Projets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="projets/wj6ry6s8jwp51.jpg" alt="Projet 1" />
+          <h3>Project 1</h3>
+          <p>Spaghetti</p>
+        </div>
+        <div class="project-card">
+          <img src="projets/2317588_w472h265c1cx1235cy688cxt0cyt0cxb2470cyb1376.webp" alt="Projet 2" />
+          <h3>Project 2</h3>
+          <p>Soupe</p>
+        </div>
+        <div class="project-card">
+          <img src="projets/2344774.webp" alt="Projet 3" />
+          <h3>Project 3</h3>
+          <p>Ratatouille</p>
+        </div>
+      </div>
+    </section>
+    <section class="tests">
+      
+      <button id="helloBtn" type="button">Click</button>
+      <p id="helloText"></p>
+      <h1 id="counter">0</h1>
+
+
+      <div id="testProfileElement"></div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <h3>Remy</h3>
+          <p>personnage principal</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Colette</h3>
+          <p>personnage secondaire</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Anton Ego</h3>
+          <p>écrivain</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+
+      <label for="subjectInputId">Subject</label>
+      <input id="subjectInputId" type="text" />
+
+      <label for="messageInputId">Message</label>
+      <textarea id="messageInputId" rows="5"></textarea>
+      
+      <button id="sendEmailButton" type="button">Send Email</button>
+
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
